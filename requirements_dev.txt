@@ -7,6 +7,5 @@ tox==3.14.0
 Sphinx==1.8.5
 twine==1.14.0
 pytest-cov==2.12.1
-Gooey==1.0.8.1
-
 pytest==6.2.4
+pyinstaller==4.4

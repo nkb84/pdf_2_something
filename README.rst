@@ -20,7 +20,7 @@ PDF Converter GUI
 
 
 
-Using GUI for converting PDF to some format with editable like docx, pptx, xlsx, ... 
+Using GUI for converting PDF to some format with editable like docx, pptx, xlsx, ...
 
 
 * Free software: Apache Software License 2.0
@@ -30,7 +30,8 @@ Using GUI for converting PDF to some format with editable like docx, pptx, xlsx,
 Features
 --------
 
-* TODO
+* Convert PDF to HTML for easier to read on chrome and using translation tool
+* ...
 
 Credits
 -------
@@ -39,3 +40,12 @@ This package was created with Cookiecutter_ and the `audreyr/cookiecutter-pypack
 
 .. _Cookiecutter: https://github.com/audreyr/cookiecutter
 .. _`audreyr/cookiecutter-pypackage`: https://github.com/audreyr/cookiecutter-pypackage
+
+Create exe
+----------
+
+Once you have a copy of the source, you can create exe file it with:
+
+.. code-block:: console
+
+    $ pyinstaller --onefile pdf_converter_gui\pdf_converter_gui.py
